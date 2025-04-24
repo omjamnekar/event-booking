@@ -57,6 +57,29 @@ Start the server:
 npm run dev
 ```
 
+### 📸 Screenshots
+
+#### Dashboard
+![Dashboard](./assets/dashboard.png)
+
+#### Event Booking
+![Event Booking](./assets/eventBooking.png)
+
+#### Home Page
+![Home Page](./assets/home.png)
+
+#### Login Page
+![Login Page](./assets/login.png)
+
+#### Create New Event
+![New Event](./assets/newEevent.png)
+
+#### Register Page
+![Register Page](./assets/register.png)
+
+#### View Event
+![View Event](./assets/viewEvent.png)
+
 ---
 
 ### 3. Setup Frontend
@@ -146,6 +169,7 @@ event-booking-app/
 ```
 
 ---
+
 
 ## 🙌 Contributors
 
