@@ -3,6 +3,6 @@
 
 backend/.env
 
-frontend/node_module/*
+*/node_module/*
 
-backend/node_module/*
+*/node_module/*
