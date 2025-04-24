@@ -1,0 +1,59 @@
+/* styles.css or AdminBookingPage.css */
+
+/* Container Styling */
+.admin-booking-container {
+  padding: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.admin-booking-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #222;
+}
+
+/* Booking Card */
+.booking-card {
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.booking-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Booking Details */
+.booking-card p {
+  font-size: 1rem;
+  margin: 6px 0;
+  color: #333;
+}
+
+.booking-card strong {
+  color: #000;
+}
+
+/* Cancel Button */
+.cancel-btn {
+  margin-top: 12px;
+  padding: 10px 18px;
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn:hover {
+  background-color: #c62828;
+}

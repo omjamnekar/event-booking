@@ -1,0 +1,133 @@
+/* styles.css */
+
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4A90E2;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ABD;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  input,
+  textarea {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+
+  
+}
+
+.container {
+  padding: 24px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.booking-card {
+  border: 1px solid #e2e8f0;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+
+.booking-title {
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+  color: #2d3748;
+}
+
+.booking-details {
+  color: #4a5568;
+  margin-bottom: 8px;
+}
+
+.view-event-btn,
+.create-event-btn {
+  background-color: #3182ce;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.view-event-btn:hover,
+.create-event-btn:hover {
+  background-color: #2b6cb0;
+}
+
+.no-bookings {
+  color: #a0aec0;
+  text-align: center;
+  font-size: 1.1rem;
+}

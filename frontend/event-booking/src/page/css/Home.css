@@ -1,0 +1,63 @@
+/* HomePage.css */
+
+.homepage-container {
+  padding: 32px;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.homepage-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #1a202c;
+}
+
+.event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.event-item {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: box-shadow 0.3s ease;
+}
+
+.event-item:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.event-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #2d3748;
+}
+
+.event-item p {
+  margin-bottom: 6px;
+  color: #4a5568;
+}
+
+.view-book-btn {
+  padding: 10px 16px;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+.view-book-btn:hover {
+  background-color: #2b6cb0;
+}

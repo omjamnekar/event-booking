@@ -1,0 +1,2 @@
+POST http://localhost:5000/api/book/6
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzQ1NDA5OTA0LCJleHAiOjE3NDYwMTQ3MDR9.QhWzyuCxIj2etdMUTbkuxqE68OgAly2t6DJ8_JCl9V4
